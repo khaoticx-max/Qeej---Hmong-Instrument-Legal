@@ -1,95 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms of Service - Qeej - Hmong Instrument</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service – Qeej: Hmong Instrument</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; background: #f9f9f9; }
-    h1, h2 { color: #333; }
-    a { color: #1a73e8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    section { margin-bottom: 20px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #0f0a04;
+      color: #f0e6c8;
+      padding: 2rem 1rem;
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .brand-icon {
+      font-size: 2.5rem;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    .brand-name {
+      font-size: 1.1rem;
+      letter-spacing: 0.15em;
+      color: #f0b030;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(1.4rem, 5vw, 2rem);
+      color: #f5d060;
+      text-align: center;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.4rem;
+    }
+
+    .effective-date {
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(240, 200, 120, 0.55);
+      margin-bottom: 2.5rem;
+      letter-spacing: 0.06em;
+    }
+
+    .summary-box {
+      background: rgba(240, 176, 48, 0.08);
+      border: 1px solid rgba(240, 176, 48, 0.25);
+      border-radius: 12px;
+      padding: 1.2rem 1.4rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .summary-box p {
+      font-size: 0.95rem;
+      color: #f5e0a0;
+    }
+
+    .summary-box strong {
+      color: #f5d060;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      color: #f0b030;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid rgba(240, 176, 48, 0.15);
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: rgba(240, 230, 200, 0.85);
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      margin: 0.4rem 0 0.8rem 1.4rem;
+      font-size: 0.95rem;
+      color: rgba(240, 230, 200, 0.85);
+    }
+
+    ul li {
+      margin-bottom: 0.35rem;
+    }
+
+    a {
+      color: #f0b030;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .warning-box {
+      background: rgba(220, 60, 60, 0.08);
+      border: 1px solid rgba(220, 60, 60, 0.25);
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.8rem;
+      font-size: 0.92rem;
+      color: rgba(255, 180, 160, 0.9);
+    }
+
+    .contact-box {
+      margin-top: 2.5rem;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(240, 176, 48, 0.15);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+      font-size: 0.92rem;
+      color: rgba(240, 220, 160, 0.75);
+    }
+
+    .contact-box a {
+      color: #f0b030;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.78rem;
+      color: rgba(240, 200, 100, 0.3);
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 500px) {
+      body { padding: 1.4rem 1rem; }
+      h2   { font-size: 0.95rem; }
+      p, ul { font-size: 0.9rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Terms of Service for Qeej - Hmong Instrument</h1>
-  <p><strong>Effective Date:</strong> 03/16/2026</p>
+  <div class="container">
 
-  <section>
+    <div class="brand">
+      <span class="brand-icon">🎵</span>
+      <span class="brand-name">Qeej – Hmong Instrument</span>
+    </div>
+
+    <h1>Terms of Service</h1>
+    <p class="effective-date">Effective Date: March 16, 2026</p>
+
+    <div class="summary-box">
+      <p>
+        <strong>Short version:</strong> This app is free to use. We own the app;
+        you own your recordings. We collect no data. Use it respectfully, don't
+        pirate it, and enjoy the music.
+      </p>
+    </div>
+
+    <!-- ─────────────────────────────────────────── -->
     <h2>1. Acceptance of Terms</h2>
-    <p>By downloading or using Qeej - Hmong Instrument, you agree to these Terms and any updates.</p>
-  </section>
+    <p>
+      By downloading, installing, or using Qeej – Hmong Instrument (the "App"),
+      you agree to be bound by these Terms of Service ("Terms") and our
+      <a href="https://khaoticx-max.github.io/Qeej---Hmong-Instrument-Legal/privacy-policy.html">
+        Privacy Policy
+      </a>,
+      which is incorporated into these Terms by reference. If you do not agree
+      to these Terms, do not use the App.
+    </p>
+    <p>
+      These Terms apply to all users of the App, including users who access it
+      via a web browser, Android device, or iOS device.
+    </p>
 
-  <section>
-    <h2>2. License and Ownership</h2>
-    <p>You receive a <strong>limited, non-transferable, non-exclusive license</strong> to use the app for personal use. All intellectual property, including code, graphics, and content, is owned by Kao Xiong.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>2. About the App</h2>
+    <p>
+      Qeej – Hmong Instrument is a free, interactive virtual instrument app that
+      allows users to play, customize, and record sounds inspired by the Qeej,
+      a traditional Hmong wind instrument. The App is provided free of charge
+      with no in-app purchases, subscriptions, or hidden fees.
+    </p>
+    <p>
+      The App is a celebration of Hmong cultural heritage. We encourage
+      respectful and educational use of the App and its content.
+    </p>
 
-  <section>
-    <h2>3. Payment and Refunds</h2>
-    <p>The app is a <strong>one-time purchase</strong>. Payments are processed via the app store. Refunds follow the app store’s policies.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>3. License Grant</h2>
+    <p>
+      Subject to your compliance with these Terms, Kao Xiong grants you a
+      limited, non-exclusive, non-transferable, revocable license to download,
+      install, and use the App on your personal device(s) for personal,
+      non-commercial purposes only.
+    </p>
+    <p>
+      This license does not include the right to:
+    </p>
+    <ul>
+      <li>Sell, resell, or commercially exploit the App or any part of it</li>
+      <li>Copy, reproduce, or distribute the App outside of authorized app stores</li>
+      <li>Modify, adapt, translate, or create derivative works of the App</li>
+      <li>Reverse-engineer, decompile, or disassemble the App</li>
+      <li>Remove or alter any proprietary notices, labels, or branding</li>
+      <li>Transfer your license to any other person or entity</li>
+    </ul>
 
-  <section>
-    <h2>4. User Responsibilities</h2>
-    <p>You agree to comply with all applicable laws, not reverse-engineer, hack, redistribute, or modify the app, and use the app only for lawful purposes.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>4. Intellectual Property</h2>
+    <p>
+      The App, including its design, code, graphics, audio recordings, instrument
+      sounds, visual assets, and all related content, is the exclusive intellectual
+      property of Kao Xiong and is protected by copyright, trademark, and other
+      applicable laws.
+    </p>
+    <p>
+      Nothing in these Terms transfers any ownership rights to you. All rights
+      not expressly granted here are reserved by Kao Xiong.
+    </p>
 
-  <section>
-    <h2>5. App Updates</h2>
-    <p>We may release updates, bug fixes, or new features at our discretion. Continued use after updates constitutes acceptance.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>5. User-Generated Content and Recordings</h2>
+    <p>
+      The App includes a feature that allows you to record your own audio using
+      your device's microphone to create custom instrument sounds ("User Recordings").
+    </p>
+    <p>
+      You retain full ownership of your User Recordings. Kao Xiong does not
+      access, collect, upload, or claim any rights over your recordings. All
+      User Recordings are stored exclusively on your device and are never
+      transmitted to any server.
+    </p>
+    <div class="warning-box">
+      <strong>Important:</strong> Because your recordings are stored locally on
+      your device only, they cannot be recovered if you uninstall the App, reset
+      your device, or lose access to your device. Kao Xiong is not responsible
+      for any loss of User Recordings. We recommend backing up important recordings
+      before uninstalling the App.
+    </div>
+    <p>
+      By using the recording feature, you confirm that you have the right to
+      record and use any audio you capture, and that doing so does not violate
+      any third-party rights or applicable laws.
+    </p>
 
-  <section>
-    <h2>6. Disclaimers</h2>
-    <p>The app is provided <strong>“as is”</strong> with no warranties. We do not guarantee error-free or uninterrupted operation.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>6. Prohibited Uses</h2>
+    <p>You agree not to use the App to:</p>
+    <ul>
+      <li>Violate any applicable local, state, national, or international law or regulation</li>
+      <li>Infringe upon the intellectual property rights of Kao Xiong or any third party</li>
+      <li>Pirate, redistribute, or resell the App or its contents</li>
+      <li>Attempt to gain unauthorized access to any part of the App</li>
+      <li>Interfere with or disrupt the integrity or performance of the App</li>
+      <li>Use the App for any unlawful, harmful, or fraudulent purpose</li>
+      <li>Record audio that violates the privacy or consent rights of others</li>
+    </ul>
+    <p>
+      Violation of any prohibited use may result in immediate termination of your
+      license and may subject you to legal action.
+    </p>
 
-  <section>
-    <h2>7. Limitation of Liability</h2>
-    <p>Not liable for direct, indirect, incidental, or consequential damages. Liability limited to the amount paid for the app.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>7. Disclaimers and No Warranties</h2>
+    <p>
+      THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY
+      KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES
+      OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR
+      NON-INFRINGEMENT.
+    </p>
+    <p>
+      Kao Xiong does not warrant that:
+    </p>
+    <ul>
+      <li>The App will be available, uninterrupted, or error-free at all times</li>
+      <li>Any defects or errors will be corrected</li>
+      <li>The App will be compatible with all devices or operating system versions</li>
+      <li>The App will meet your specific requirements or expectations</li>
+    </ul>
+    <p>
+      Your use of the App is at your sole risk.
+    </p>
 
-  <section>
-    <h2>8. Force Majeure</h2>
-    <p>We are not liable for delays or failures caused by circumstances beyond our control.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>8. Limitation of Liability</h2>
+    <p>
+      TO THE FULLEST EXTENT PERMITTED BY LAW, KAO XIONG SHALL NOT BE LIABLE FOR
+      ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES,
+      INCLUDING BUT NOT LIMITED TO LOSS OF DATA, LOSS OF RECORDINGS, LOSS OF
+      PROFITS, OR LOSS OF GOODWILL, ARISING OUT OF OR IN CONNECTION WITH YOUR
+      USE OF OR INABILITY TO USE THE APP.
+    </p>
+    <p>
+      BECAUSE THE APP IS PROVIDED FREE OF CHARGE, KAO XIONG'S TOTAL LIABILITY
+      TO YOU FOR ANY CLAIMS ARISING FROM THESE TERMS OR YOUR USE OF THE APP
+      SHALL NOT EXCEED ZERO DOLLARS ($0.00).
+    </p>
 
-  <section>
-    <h2>9. Piracy & Unauthorized Distribution</h2>
-    <p>Unauthorized copying, distribution, or resale is prohibited. Legal action may be taken for piracy.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>9. Indemnification</h2>
+    <p>
+      You agree to defend, indemnify, and hold harmless Kao Xiong from and against
+      any claims, liabilities, damages, losses, and expenses, including reasonable
+      legal fees, arising out of or in any way connected with:
+    </p>
+    <ul>
+      <li>Your use of the App</li>
+      <li>Your violation of these Terms</li>
+      <li>Your violation of any rights of a third party</li>
+      <li>Any content you record or create using the App</li>
+    </ul>
 
-  <section>
-    <h2>10. Indemnification</h2>
-    <p>You agree to indemnify and hold harmless Kao Xiong from claims arising from misuse or violation of these terms.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>10. App Store and Platform Terms</h2>
+    <p>
+      If you downloaded or installed this App through a third-party platform such
+      as the Google Play Store or Apple App Store, your use is also subject to
+      that platform's terms of service. In the event of a conflict between these
+      Terms and the platform's terms, the platform's terms will govern solely
+      with respect to your relationship with that platform.
+    </p>
+    <p>
+      Kao Xiong, not Apple or Google, is solely responsible for the App and its
+      content.
+    </p>
 
-  <section>
-    <h2>11. Termination</h2>
-    <p>We may terminate your license for violations. You must delete the app upon termination.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>11. Users of All Ages</h2>
+    <p>
+      This App is suitable for users of all ages. Because the App collects no
+      personal data from any user, there are no age-based data restrictions.
+      Younger users should have parental guidance when recording audio to ensure
+      they have appropriate consent to record any sounds they capture.
+    </p>
 
-  <section>
-    <h2>12. Governing Law & Dispute Resolution</h2>
-    <p>These Terms are governed by the laws of the United States. Disputes resolved in the courts of the United States.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>12. Termination</h2>
+    <p>
+      Kao Xiong reserves the right to terminate or suspend your license to use
+      the App at any time, without notice, if you violate these Terms or engage
+      in any conduct that Kao Xiong determines is harmful to the App, its users,
+      or any third party.
+    </p>
+    <p>
+      Upon termination, your right to use the App ceases immediately. Sections
+      of these Terms that by their nature should survive termination — including
+      Intellectual Property, Limitation of Liability, Indemnification, and
+      Governing Law — shall survive.
+    </p>
 
-  <section>
-    <h2>13. International Users</h2>
-    <p>You must comply with local laws when using the app outside the United States.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>13. Modifications to the App</h2>
+    <p>
+      Kao Xiong reserves the right to modify, update, suspend, or discontinue
+      the App or any part of it at any time without notice. We are not liable
+      to you or any third party for any modification, suspension, or
+      discontinuation of the App.
+    </p>
 
-  <section>
-    <h2>14. Updates to Terms</h2>
-    <p>We may update these Terms periodically; continued use constitutes acceptance of changes.</p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>14. Changes to These Terms</h2>
+    <p>
+      We may update these Terms from time to time. When we do, we will notify
+      you through an in-app notice or an app update so you are aware of the
+      changes. The updated Terms will always be available at this URL.
+    </p>
+    <p>
+      Continued use of the App after notification of changes constitutes your
+      acceptance of the revised Terms. If you do not agree to the updated Terms,
+      you should stop using the App.
+    </p>
 
-  <section>
-    <h2>15. Contact Information</h2>
-    <p>Kao Xiong <br>
-    <a href="mailto:kxion999@gmail.com">kxion999@gmail.com</a></p>
-  </section>
+    <!-- ─────────────────────────────────────────── -->
+    <h2>15. Force Majeure</h2>
+    <p>
+      Kao Xiong shall not be liable for any failure or delay in performance
+      resulting from causes beyond our reasonable control, including but not
+      limited to acts of nature, internet outages, platform failures, government
+      actions, or other events outside our control.
+    </p>
+
+    <!-- ─────────────────────────────────────────── -->
+    <h2>16. Governing Law and Disputes</h2>
+    <p>
+      These Terms are governed by and construed in accordance with the laws of
+      the State of <strong>Minnesota</strong>, United States, without regard
+      to its conflict of law principles.
+    </p>
+    <p>
+      Any disputes arising out of or relating to these Terms or your use of the
+      App shall be resolved exclusively in the state or federal courts located
+      in <strong>Minnesota</strong>. You consent to the personal jurisdiction
+      of such courts.
+    </p>
+    <p>
+      If you are located outside the United States, you agree to comply with
+      all applicable local laws regarding online conduct and acceptable content.
+    </p>
+
+    <!-- ─────────────────────────────────────────── -->
+    <h2>17. Severability</h2>
+    <p>
+      If any provision of these Terms is found to be invalid, illegal, or
+      unenforceable by a court of competent jurisdiction, that provision shall
+      be modified to the minimum extent necessary to make it enforceable, or
+      severed if modification is not possible. The remaining provisions of these
+      Terms shall continue in full force and effect.
+    </p>
+
+    <!-- ─────────────────────────────────────────── -->
+    <h2>18. Entire Agreement</h2>
+    <p>
+      These Terms, together with our
+      <a href="https://khaoticx-max.github.io/Qeej---Hmong-Instrument-Legal/privacy-policy.html">
+        Privacy Policy
+      </a>,
+      constitute the entire agreement between you and Kao Xiong regarding your
+      use of the App and supersede all prior agreements, understandings, or
+      representations, whether written or oral, relating to the App.
+    </p>
+
+    <!-- ─────────────────────────────────────────── -->
+    <h2>19. Contact Us</h2>
+    <div class="contact-box">
+      <p>
+        If you have any questions, concerns, or feedback regarding these Terms,
+        please contact:
+      </p>
+      <p style="margin-top: 0.6rem;">
+        <strong>Kao Xiong</strong><br />
+        Developer, Qeej – Hmong Instrument<br />
+        <a href="mailto:kxion999@gmail.com">kxion999@gmail.com</a>
+      </p>
+    </div>
+
+    <p class="footer">© 2026 Qeej – Hmong Instrument · All rights reserved</p>
+
+  </div>
 </body>
 </html>
